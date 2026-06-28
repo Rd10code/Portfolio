@@ -161,7 +161,7 @@ export default function Contact() {
               <div className="space-y-6">
                 {/* Email details */}
                 <a
-                  href="mailto:rohitdeore2004@gmail.com"
+                  href="mailto:deorerohit2004@gmail.com"
                   className="flex items-center gap-4 group p-3.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-900/40 border border-transparent hover:border-slate-200/50 dark:hover:border-slate-800/80 transition-all duration-300"
                 >
                   <div className="p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-500 group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-300">
