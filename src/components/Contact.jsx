@@ -273,7 +273,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Rohit Deore"
+                      placeholder="Your full name"
                       className={`w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border ${
                         errors.name
                           ? 'border-red-500 focus:ring-red-500/20'
@@ -301,7 +301,7 @@ export default function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="rohitdeore2004@gmail.com"
+                      placeholder="your@email.com"
                       className={`w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border ${
                         errors.email
                           ? 'border-red-500 focus:ring-red-500/20'
