@@ -28,7 +28,7 @@ const projectsData = [
     desc: 'A full-stack Airbnb-inspired rental platform with listing creation, image upload via Cloudinary, map integration, user reviews, and Passport.js authentication. Deployed on Render.',
     tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Cloudinary', 'Passport.js'],
     github: 'https://github.com/Rd10code/Major-Project',
-    demo: 'https://wanderstay.onrender.com',
+    demo: 'https://github.com/Rd10code/Major-Project',
     gradient: 'from-violet-600/20 to-indigo-600/20 text-indigo-400',
     iconText: '🏠',
   },
@@ -50,33 +50,35 @@ const projectsData = [
     desc: 'Personal developer portfolio built with React + Vite. Features dark/light mode, Framer Motion animations, particle background, GitHub stats section, and a working contact form.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com/Rd10code',
-    demo: '#',
+    demo: 'https://rohitdeore.vercel.app/',
     gradient: 'from-blue-600/20 to-teal-600/20 text-teal-400',
     iconText: '⚡',
   },
+
   {
     id: 4,
-    title: 'Spotify Clone',
-    category: 'Frontend',
-    desc: 'A pixel-perfect Spotify web player clone with hardcoded playlist rendering, audio controls, responsive sidebar navigation, and volume control. Deployed on Vercel.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/Rd10code/Music-streaming-platform',
-    demo: 'https://music-streaming-platform-sigma.vercel.app/',
-    gradient: 'from-green-600/20 to-emerald-600/20 text-green-400',
-    iconText: '🎧',
-  },
-  {
-    id: 5,
     title: 'Simon Says Game',
     category: 'Frontend',
     desc: 'A browser-based memory sequence game built with vanilla JavaScript. Features progressive difficulty, color-sound feedback, streak tracking, and DOM animations.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/Rd10code',
-    demo: '#',
+    github: 'https://github.com/Rd10code/LinkedIn-Showcase/tree/main/Simon%20Say',
+    demo: 'https://github.com/Rd10code/LinkedIn-Showcase/tree/main/Simon%20Say',
     gradient: 'from-fuchsia-600/20 to-pink-600/20 text-pink-400',
     iconText: '🎮',
   },
+    {
+    id: 5,
+    title: 'Paymesh-UPI Without Internet',
+    category: 'Frontend',
+    desc: 'simulating UPI-style transactions over a device-to-device gossip mesh network.',
+    tech: ['Java','Spring-Boot','React','Maven'],
+    github: 'https://github.com/Rd10code/PayMesh',
+    demo: 'https://github.com/Rd10code/PayMesh',
+    gradient: 'from-fuchsia-600/20 to-pink-600/20 text-pink-400',
+    iconText: '💰',
+  },
 ];
+
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState('All');

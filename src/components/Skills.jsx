@@ -26,6 +26,7 @@ const skillCategories = [
       { name: 'Express.js', level: 80 },
       { name: 'REST APIs', level: 85 },
       { name: 'EJS', level: 75 },
+      { name: 'Spring-Boot',level:65},
     ],
   },
   {

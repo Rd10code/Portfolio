@@ -81,7 +81,7 @@ export default function Footer() {
             <Linkedin className="w-4.5 h-4.5" />
           </a>
           <a
-            href="mailto:rohitdeore2004@gmail.com"
+            href="mailto:deorerohit2004@gmail.com"
             className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800/80 border border-slate-100 dark:border-slate-800/60 text-slate-500 dark:text-slate-450 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-250"
             aria-label="Send Email"
           >
