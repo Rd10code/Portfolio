@@ -51,7 +51,7 @@ const activityGrid = generateActivityData();
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'];
 
 const stats = [
-  { label: 'Total Repositories', value: '7', icon: GitFork, color: 'text-blue-500' },
+  { label: 'Total Repositories', value: '12', icon: GitFork, color: 'text-blue-500' },
   { label: 'Yearly Commits', value: '260+', icon: Stars, color: 'text-emerald-500' },
   { label: 'Coding Solutions', value: '100+', icon: Code, color: 'text-indigo-500' },
 ];
@@ -66,14 +66,14 @@ const profiles = [
   },
   {
     name: 'LeetCode',
-    url: 'https://leetcode.com/u/Rd10code/',
-    desc: '100+ problems solved. Focus on arrays, trees, and graphs.',
+    // url: 'https://leetcode.com/u/Rd10code/',
+    desc: '70+ problems solved. Focus on arrays, trees, and graphs.',
     icon: Code,
     color: 'hover:border-amber-500/55 hover:text-amber-500',
   },
   {
     name: 'GeeksforGeeks',
-    url: 'https://www.geeksforgeeks.org/user/Rd10code/',
+    // url: 'https://www.geeksforgeeks.org/user/Rd10code/',
     desc: 'Practiced core structures, algorithms, and logical queries.',
     icon: BookOpen,
     color: 'hover:border-emerald-500/55 hover:text-emerald-500',

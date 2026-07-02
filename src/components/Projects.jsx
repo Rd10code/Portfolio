@@ -35,9 +35,9 @@ const projectsData = [
   {
     id: 2,
     title: 'BeatFlow',
-    category: 'Full Stack',
+    category: 'Frontend',
     desc: 'A MERN stack music streaming app with playlist management, audio playback controls, and a clean Spotify-inspired UI. Features user auth and MongoDB-backed song library.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+    tech: ['HTML','CSS','Javascript'],
     github: 'https://github.com/Rd10code/Music-streaming-platform',
     demo: 'https://music-streaming-platform-sigma.vercel.app/',
     gradient: 'from-emerald-600/20 to-teal-600/20 text-emerald-400',
