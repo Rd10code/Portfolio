@@ -69,7 +69,7 @@ const projectsData = [
     {
     id: 5,
     title: 'Paymesh-UPI Without Internet',
-    category: 'Frontend',
+    category: 'Full Stack',
     desc: 'simulating UPI-style transactions over a device-to-device gossip mesh network.',
     tech: ['Java','Spring-Boot','React','Maven'],
     github: 'https://github.com/Rd10code/PayMesh',
