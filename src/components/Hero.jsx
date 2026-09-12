@@ -258,6 +258,7 @@ export default function Hero() {
             </div>
             
             {/* Small floating badges */}
+            
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
@@ -265,11 +266,13 @@ export default function Hero() {
             >
               ☕ Java
             </motion.div>
+            
             <motion.div
               animate={{ y: [0, 8, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut', delay: 1 }}
               className="absolute -bottom-2 -left-2 px-3 py-1.5 rounded-lg glassmorphism text-xs font-mono font-semibold text-slate-800 dark:text-slate-200 border border-teal-500/30 flex items-center gap-1.5"
             >
+              
               ⚛️ React
             </motion.div>
             <motion.div
